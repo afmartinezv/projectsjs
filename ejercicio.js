@@ -82,4 +82,48 @@ if(numero == 0){
     alert ("Su número es negativo");
 }
 */
+/* 8. Leer un número, mostrar si es par o impar.
+const numero = prompt("Ingrese un número");
 
+console.log(Number(numero));
+
+if (numero % 2) {
+    
+    alert("Su número es impar");
+    
+} else {
+
+    alert("Su número es par");
+       
+}
+*/
+/* 9. Leer dos números, mostrar el mayor.
+const numero1 = prompt("Ingrese su primer número");
+const numero2 = prompt("Ingrese su segundo número");
+
+console.log(Number(numero1,numero2));
+
+if (numero1 > numero2) {
+
+    alert("El número mayor es," + " " + numero1);
+    
+} else if(numero1 < numero2) {
+
+    alert("El número mayor es," + " " + numero2);
+    
+}
+*/
+
+const numero1 = prompt("Ingrese su primer número");
+const numero2 = prompt("Ingrese su segundo número");
+
+console.log(Number(numero1,numero2));
+
+let suma = (numero1 + numero2);
+let resta = (numero1 - numero2);
+let mult = (numero1 * numero2);
+let divi = (numero1 / numero2);
+let modu = (numero1 % numero2); 
+
+document.write( "La suma de sus numeros es:" + " " + suma + 
+ + "<br/>La resta de sus numeros es:" + " " + resta);
