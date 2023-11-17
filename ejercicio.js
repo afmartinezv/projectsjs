@@ -113,18 +113,21 @@ if (numero1 > numero2) {
     
 }
 */
-
+/*
 const numero1 = prompt("Ingrese su primer número");
 const numero2 = prompt("Ingrese su segundo número");
 
-console.log(Number(numero1));
-console.log(Number(numero2))
 
-let suma = (numero1 + numero2);
-let resta = (numero1 - numero2);
-let mult = (numero1 * numero2);
-let divi = (numero1 / numero2);
-let modu = (numero1 % numero2); 
+let suma = (Number(numero1) + Number(numero2));
+let resta = (Number(numero1) - Number(numero2));
+let mult = (Number(numero1) * Number(numero2));
+let divi = (Number(numero1) / Number(numero2));
+let modu = (Number(numero1) % Number(numero2)); 
+
 
 alert( "La suma de sus numeros es:" + " " + suma  
- + "\nLa resta de sus numeros es:" + " " + resta+ "\nLa multiplicacion de sus numeros es:" + " " + mult);
+ + "\nLa resta de sus numeros es:" + " " + resta
+ + "\nLa multiplicacion de sus numeros es:" + " " + mult 
+ + "\nLa Division de sus numeros es:" + " " + divi 
+ + "\nEl modulo de sus numeros es:" + " " + modu);
+*/
