@@ -25,17 +25,15 @@ const apellido = prompt("Por favor escriba su Apellido");
     document.write("Hola," + " " + nombre + " " + apellido);
 */
 /* 2. Pregunte al usuario si desea continuar, responder con hola o adiós.
-const continuar = prompt ("Desea continuar?");
+const siono = confirm("Desea continuar?");
 
-if(continuar === "si"){
-    alert("Hola")
-
+if(siono == true){
+    alert("Hola");
 }else{
     alert("Adios");
-
 }
 */
-/*Leer nombre y edad, Mostrar si es o no mayor de edad.
+/* 3. Leer nombre y edad, Mostrar si es o no mayor de edad.
 const nombre = prompt ("Por favor ingrese su nombre");
 const edad = prompt ("Por favor ingrese su edad");
 
@@ -47,3 +45,41 @@ if(edad>=18){
     document.write("Hola" + " " + nombre + "," +" " + "ud es menor de edad");
 }
 */
+/* 5. Leer un número, mostrar el doble de n.
+const numero = prompt("Ingrese un número");
+
+console.log(Number(numero));
+
+let doble = (numero*2);
+
+document.write("El doble de su número es " + doble);
+*/
+/* 6. Leer un número, mostrar la mitad de n.
+const numero = prompt("Ingrese un número");
+
+console.log(Number(numero));
+
+let mitad = (numero/2);
+
+document.write("La mitad de su número es " + mitad);
+*/
+
+/* 7. Leer un número, mostrar si es positivo, negativo o cero.
+const numero = prompt("Ingrese un número");
+
+console.log(Number(numero));
+
+if(numero == 0){
+
+    alert("Su número es 0");
+
+}else if(numero > 0){
+
+    alert("Su número es positivo");
+
+}else {
+
+    alert ("Su número es negativo");
+}
+*/
+
