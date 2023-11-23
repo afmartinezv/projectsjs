@@ -131,3 +131,27 @@ alert( "La suma de sus numeros es:" + " " + suma
  + "\nLa Division de sus numeros es:" + " " + divi 
  + "\nEl modulo de sus numeros es:" + " " + modu);
 */
+
+// Función para pedir un número al usuario
+function pedirNumero() {
+    let numero = prompt("Ingrese un número:");
+    return (numero);
+  }
+  
+  // Función para calcular la suma total desde 1 hasta n
+  function calcularSumaTotal(n) {
+    let suma = 0;
+    for (let i = 1; i <= n; i++) {
+      suma += i;
+    }
+    return suma;
+  }
+  
+  // Obtener un número del usuario
+  let numeroIngresado = pedirNumero();
+  
+  // Calcular la suma total hasta el número ingresado
+  let sumaTotal = calcularSumaTotal(numeroIngresado);
+  
+  // Mostrar el resultado
+  document.write("La suma total desde 1 hasta " + numeroIngresado + " es: " + sumaTotal);
